@@ -3,6 +3,10 @@ ELeFHAnt: A supervised machine learning approach for label harmonization and ann
 
 # Launch App
 ```
+Please access the app using: https://elefhant.research.cchmc.org/
+
+OR
+
 if (!require("shiny")) install.packages("shiny", repos="http://cran.us.r-project.org")
 library(shiny)
 runGitHub("ELeFHAnt-Shiny", "CuSTOM-Bio", launch.browser = TRUE, ref="main")
